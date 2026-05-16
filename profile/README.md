@@ -9,10 +9,6 @@ Welcome to the SabreTools family of projects! Below you can learn about the vari
 
 The SabreTools family of projects includes multiple programs that are designed to fit some very specific niches, often in the realm of media preservation and data processing. Most of the programs below are commandline applications, with the exception of **MPF**.
 
-### [SabreTools](https://github.com/SabreTools/SabreTools)
-
-**SabreTools** is the flagship and origination of the entire family of projects. It is a highly-advanced metadata file creation and manipulation tool aimed at users who know their way around a command line. The associated [wiki](https://github.com/SabreTools/SabreTools/wiki) is one the most thorough set of documents on the various metadata formats that exist out in the wild.
-
 ### [Media Preservation Frontend](https://github.com/SabreTools/MPF)
 
 **Media Preservation Frontend**, or just **MPF**, is the defacto disc dumping frontend used by [Redump](http://redump.org/) and related communities. It offers multiple user-friendly options to work with various disc dumping programs, such as [redumper](https://github.com/superg/redumper), [Aaru](https://github.com/aaru-dps/Aaru), and [DiscImageCreator](https://github.com/saramibreak/DiscImageCreator).
@@ -20,6 +16,10 @@ The SabreTools family of projects includes multiple programs that are designed t
 ### [NDecrypt](https://github.com/SabreTools/NDecrypt)
 
 **NDecrypt** is an easy-to-use Nintendo DS and 3DS encryption and decryption tool. Users must provide their own legally-obtained keys and data. Additional information output for verifying the transformed files is also included.
+
+### [SabreTools](https://github.com/SabreTools/SabreTools)
+
+**SabreTools** is the flagship and origination of the entire family of projects. It is a highly-advanced metadata file creation and manipulation tool aimed at users who know their way around a command line. The associated [wiki](https://github.com/SabreTools/SabreTools/wiki) is one the most thorough set of documents on the various metadata formats that exist out in the wild.
 
 ### [UnshieldSharp](https://github.com/mnadareski/UnshieldSharp)
 
