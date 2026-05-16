@@ -87,7 +87,7 @@ Included in the repo is a standalone program called **Headerer** which allows us
 
 ## Unmaintained and Retired Projects
 
-Some projects under the umbrella of the SabreTools family are still technically active but are considered to be unmaintained or archived for one reason or another. Any archived projects that were merged into one of the maintained libraries are not listed here. Below are a list of those projects along with their original purpose.
+Some projects under the umbrella of the SabreTools family are considered to be unmaintained or archived for one reason or another. Any archived projects that were merged into one of the maintained libraries are not listed here. Below are a list of those projects along with their original purpose.
 
 ### [psxt001z](https://github.com/SabreTools/psxt001z)
 
