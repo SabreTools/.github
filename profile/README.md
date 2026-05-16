@@ -1,13 +1,17 @@
-# ![SabreTools Logo](images/sabretools-rect.png)
+# ![SabreTools Organization Logo](images/sabretools-rect-new-transparent.svg)
 
-Welcome to the SabreTools family of projects! Below you can learn about the various projects under the SabreTools umbrella, including links to each. SabreTools projects are maintained by [mnadareski](https://github.com/mnadareski) with contributions by many dedicated developers and hobbyists. Projects generally use the **MIT License** and all serious contributions are welcome. All projects that utilize C\# are designed to be as broadly compatible across .NET versions as possible, often stretching as old as **.NET Framework 2.0**.
+Welcome to the SabreTools family of projects! Below you can learn about the various projects under the SabreTools umbrella, including links to each. SabreTools projects are maintained by [mnadareski](https://github.com/mnadareski) with contributions by many dedicated developers and hobbyists.
+
+Projects generally use the **MIT License** and all serious contributions are welcome. All projects that utilize C\# are designed to be as broadly compatible across .NET versions as possible, often stretching as old as **.NET Framework 2.0**.
+
+The SabreTools program logo was designed by **Kludge** and the current organization logo was designed by [**Whatever Industries**](https://github.com/whatev-indus). Both are used with permission in their respective contexts.
 
 ---
 ---
 
 ## Programs
 
-The SabreTools family of projects includes multiple programs that are designed to fit some very specific niches, often in the realm of media preservation and data processing. Most of the programs below are commandline applications, with the exception of **MPF**.
+The SabreTools family of projects includes multiple programs that are designed to fit some very specific niches, often in the realm of media preservation and data processing. Most of the programs below are commandline applications, with the exception of the UI components of **MPF**.
 
 ### [Media Preservation Frontend](https://github.com/SabreTools/MPF)
 
@@ -15,7 +19,7 @@ The SabreTools family of projects includes multiple programs that are designed t
 
 ### [NDecrypt](https://github.com/SabreTools/NDecrypt)
 
-**NDecrypt** is an easy-to-use Nintendo DS and 3DS encryption and decryption tool. Users must provide their own legally-obtained keys and data. Additional information output for verifying the transformed files is also included.
+**NDecrypt** is an easy-to-use Nintendo DS and 3DS encryption and decryption tool. Users must provide their own legally-obtained keys and data. Additional information output for verifying the transformed files is also included. It originally was fully separated from other projects, but now utilizes **SabreTools.IO** and **SabreTools.Serialization** instead.
 
 ### [SabreTools](https://github.com/SabreTools/SabreTools)
 
@@ -86,3 +90,6 @@ Some projects under the umbrella of the SabreTools family are still technically 
 ### [Transform](https://github.com/SabreTools/Transform)
 
 **Transform** was originally an application designed to experiment with various methods of transforming input files. The majority of the functionality that was included here is now in **SabreTools.IO**. This program is kept around as a standalone implementation but should not be relied on anymore.
+
+---
+---
