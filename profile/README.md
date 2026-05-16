@@ -85,9 +85,9 @@ Included in the repo is a standalone program called **Headerer** which allows us
 ---
 ---
 
-## Unmaintained Projects
+## Unmaintained and Retired Projects
 
-Some projects under the umbrella of the SabreTools family are still technically active but are considered to be unmaintained for one reason or another. Below are a list of those projects along with their original purpose.
+Some projects under the umbrella of the SabreTools family are still technically active but are considered to be unmaintained or archived for one reason or another. Any archived projects that were merged into one of the maintained libraries are not listed here. Below are a list of those projects along with their original purpose.
 
 ### [psxt001z](https://github.com/SabreTools/psxt001z)
 
@@ -100,6 +100,14 @@ Some projects under the umbrella of the SabreTools family are still technically 
 ### [Transform](https://github.com/SabreTools/Transform)
 
 **Transform** was originally an application designed to experiment with various methods of transforming input files. The majority of the functionality that was included here is now in **SabreTools.IO**. This program is kept around as a standalone implementation but should not be relied on anymore.
+
+### [TwoFour](https://github.com/SabreTools/TwoFour)
+
+**TwoFour** was a utility application that allowed converting data stores that used [romba](https://github.com/uwedeportivo/romba) organization to different, configurable depths. 4 levels has since been standardized, rendering this application unneeded.
+
+### [Wizard of DATz Redux](https://github.com/SabreTools/wizzardRedux)
+
+**Wizard of DATz (WoD) Redux** was a PHP application that was meant to aid in documenting available files across a large variety of sources. The code was originally written and maintained by **Wizard of DATz (WoD)**. This project formed the basis of what became the **SabreTools** commandline application.
 
 ---
 ---
