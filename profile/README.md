@@ -42,7 +42,9 @@ Libraries make up the bulk majority of the projects included under the SabreTool
 
 ### [BinaryObjectScanner](https://github.com/SabreTools/BinaryObjectScanner)
 
-**BinaryObjectScanner**, formerly **BurnOutSharp**, is a comprehensive protection scanning library. It can detect dozens of protections and packers, all supported by the research its sibling project, [DRML](https://github.com/TheRogueArchivist/DRML). Included in the repo is a standalone application called **ProtectionScan**, which acts as a reference for anyone who wishes to incorporate **BinaryObjectScanner** in their projects.
+**BinaryObjectScanner**, formerly **BurnOutSharp**, is a comprehensive protection scanning library. It can detect dozens of protections and packers, all supported by the research its sibling project, [DRML](https://github.com/TheRogueArchivist/DRML).
+
+Included in the repo is a standalone application called **ProtectionScan**, which acts as a reference for anyone who wishes to incorporate **BinaryObjectScanner** in their projects.
 
 ### [SabreTools.CommandLine](https://github.com/SabreTools/SabreTools.CommandLine)
 
@@ -50,7 +52,9 @@ Libraries make up the bulk majority of the projects included under the SabreTool
 
 ### [SabreTools.Hashing](https://github.com/SabreTools/SabreTools.Hashing)
 
-**SabreTools.Hashing** is a library that provides a uniform experience for implementers who need checksum and hash processing. It supports a broad range of options, many of which are written in fully-managed C\#. Included in the repo is a standalone application called **Hasher**, which acts as a reference for anyone who wishes to incorporate **SabreTools.Hashing** in their projects.
+**SabreTools.Hashing** is a library that provides a uniform experience for implementers who need checksum and hash processing. It supports a broad range of options, many of which are written in fully-managed C\#.
+
+Included in the repo is a standalone application called **Hasher**, which acts as a reference for anyone who wishes to incorporate **SabreTools.Hashing** in their projects.
 
 ### [SabreTools.IO](https://github.com/SabreTools/SabreTools.IO)
 
@@ -58,11 +62,15 @@ Libraries make up the bulk majority of the projects included under the SabreTool
 
 ### [SabreTools.RedumpLib](https://github.com/SabreTools/SabreTools.RedumpLib)
 
-**SabreTools.RedumpLib** is a reference library used to document and interact with the [Redump](http://redump.org/) website. No formal API exists for the current site, so this acts as a psuedo-API layer. It is primarily used by **MPF** to help retrieve match data, but a standalone reference application called **RedumpTool** is also included in the repo.
+**SabreTools.RedumpLib** is a reference library used to document and interact with the [Redump](http://redump.org/) website. No formal API exists for the current site, so this acts as a psuedo-API layer. It is primarily used by **MPF** to help retrieve match data.
+
+Included in the repo is a standalone reference application called **RedumpTool**, which allows for programmatic access to the site, including the ability to supply login credentials for locked functionality.
 
 ### [SabreTools.Serialization](https://github.com/SabreTools/SabreTools.Serialization)
 
-**SabreTools.Serialzation** is a comprehensive meta-library that acts the primary file processing library for many of the other SabreTools projects. It includes dozens of file models, readers, writers, custom information wrappers, as well as metadata file management. In the repo there are 2 reference applications:
+**SabreTools.Serialzation** is a comprehensive meta-library that acts the primary file processing library for many of the other SabreTools projects. It includes dozens of file models, readers, writers, custom information wrappers, as well as metadata file management.
+
+Included in the repo there are 2 reference applications:
 
 - **ExtractionTool** provides an easy-to-use commandline method of using the extraction capabilities of both **SabreTools.IO** and **SabreTools.Serialization**. It acts as a reference for anyone looking to incorporate the unique extraction functionality in their own programs.
 
@@ -70,7 +78,9 @@ Libraries make up the bulk majority of the projects included under the SabreTool
 
 ### [SabreTools.Skippers](https://github.com/SabreTools/SabreTools.Skippers)
 
-**SabreTools.Skippers** is a utility library meant to help deal with the various header skipper definitions that exist. Header skippers were traditionally distributed as XML definition files and used by various file management programs. Included in the repo is a standalone program called **Headerer** which allows users to remove and restore copier headers from various supported formats.
+**SabreTools.Skippers** is a utility library meant to help deal with the various header skipper definitions that exist. Header skippers were traditionally distributed as XML definition files and used by various file management programs.
+
+Included in the repo is a standalone program called **Headerer** which allows users to remove and restore copier headers from various supported formats.
 
 ---
 ---
