@@ -42,7 +42,7 @@ Libraries make up the bulk majority of the projects included under the SabreTool
 
 ### [BinaryObjectScanner](https://github.com/SabreTools/BinaryObjectScanner)
 
-**BinaryObjectScanner**, formerly **BurnOutSharp**, is a comprehensive protection scanning library. It can detect dozens of protections and packers, supported by the its research sibling project, [DRML](https://github.com/TheRogueArchivist/DRML).
+**BinaryObjectScanner**, formerly **BurnOutSharp**, is a comprehensive protection scanning library. It can detect dozens of protections and packers, including in many common compressed formats. It is supported by its sibling research project, [DRML](https://github.com/TheRogueArchivist/DRML).
 
 Included in the repo is a standalone application called **ProtectionScan**, which acts as a reference for anyone who wishes to incorporate **BinaryObjectScanner** in their projects.
 
