@@ -17,6 +17,14 @@ The SabreTools family of projects includes multiple programs that are designed t
 
 **Media Preservation Frontend**, or just **MPF**, is the defacto disc dumping frontend used by [Redump](http://redump.org/) and related communities. It offers multiple user-friendly options to work with various disc dumping programs, such as [redumper](https://github.com/superg/redumper), [Aaru](https://github.com/aaru-dps/Aaru), and [DiscImageCreator](https://github.com/saramibreak/DiscImageCreator).
 
+Included in the repo there are 3 applications:
+
+- **MPF.UI** is the main GUI application for MPF. It is written using WPF as the UI framework so it is Windows-specific. It provides many features including media dumping, checking of existing output files, and IRD creation.
+
+- **MPF.CLI** is the commandline equivilent to **MPF.UI**. It allows for users to take advantage of the dumping and post-dump processing steps from the terminal instead. The application also includes an interactive mode for users who are uncomfortable with commandline flags. It is fully cross-platform, with builds available for Windows, Linux, and Mac.
+
+- **MPF.Check** is a standalone application allowing users to check existing output files. It is useful for processing the outputs from some non-desktop applications such as CleanRip. The application also includes an interactive mode for users who are uncomfortable with commandline flags. It is fully cross-platform, with builds available for Windows, Linux, and Mac.
+
 ### [NDecrypt](https://github.com/SabreTools/NDecrypt)
 
 **NDecrypt** is an easy-to-use Nintendo DS and 3DS encryption and decryption tool. Users must provide their own legally-obtained keys and data. Additional information output for verifying the transformed files is also included. It originally was fully separated from other projects, but now utilizes **SabreTools.IO** and **SabreTools.Serialization** instead.
