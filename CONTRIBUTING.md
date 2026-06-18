@@ -4,6 +4,16 @@ This document serves as the official code standards guide development. Please no
 
 There are no requirements on a coding environment or IDE in order to contribute. If there are issues with a particular environment, please surface an issue with the project. If there are support files or updates needed to items such as the `.gitignore`, please open an issue or PR to assist the maintainers. Consider using an editor that can take advantage of the `.editorconfig` file to enable automatic enforcement.
 
+## Statement on LLM Usage
+
+There is a strong preference for all SabreTools projects to avoid LLM usage wherever possible. However, it is currently difficult to fully prohibit or even detect such cases. As a result, the following guidelines should be followed if you decide to use LLM-assisted or LLM-generated code in your contribution:
+
+- **Avoid duplicate code, even if the LLM claims it is necessary.** This one is more subtle and can even trip up purely human-written code. The SabreTools family of projects include many helper methods and classes that may be recreated by default by LLMs. Doing a search for the method that you're looking to write is a good way of ensuring that these duplicates won't have to be found during code review.
+
+- **Disclose the use of LLMs if significant to the contribution.** If you have used an LLM either as the only or primary driver of a change, you should mention it somewhere in the pull request that an LLM was used. This also goes for any other heavy use of LLMs within the coding process. If the only use of LLMs was acting as a rubber duck or to fix small issues, this does **not** need to be disclosed. Please use your best judgement about how much LLMs were involved in your change.
+
+- **Above all, you are responsible for what you submit!** Regardless of the source of the code, it is your responsibility as a contributor to ensure that the code is correct. Including both manual and automated tests as a part of your submission can help ensure that the quality of the code is higher. All code submitted is held to the same set of standards and having to fix that code after it is merged can be a signficant maintenence burden.
+
 ## External Code
 
 Generally, the `System` and `SabreTools` libraries are going to be preferred over all external code. If external code is needed, reasonable alternatives need to be explored before it will be included. External code use can also be seen as an opportunity to include that functionality in a `SabreTools` project directly.
