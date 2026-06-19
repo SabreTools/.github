@@ -4,7 +4,7 @@ Welcome to the SabreTools family of projects! Below you can learn about the vari
 
 Projects generally use the **MIT License** and all serious contributions are welcome. All projects that utilize C\# are designed to be as broadly compatible across .NET versions as possible, often stretching as old as **.NET Framework 2.0**.
 
-The SabreTools program logo was designed by **Kludge** and the current organization logo was designed by [**Whatever Industries**](https://github.com/whatev-indus). Both are used with permission in their respective contexts.
+The SabreTools program logo was designed by **Kludge** and the current organization logo was designed by [**Whatever Industries**](https://github.com/whatever-industries). Both are used with permission in their respective contexts.
 
 ---
 ---
