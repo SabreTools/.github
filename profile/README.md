@@ -15,7 +15,7 @@ The SabreTools family of projects includes multiple programs that are designed t
 
 ### [Media Preservation Frontend](https://github.com/SabreTools/MPF)
 
-**Media Preservation Frontend**, or just **MPF**, is the defacto disc dumping frontend used by [Redump](http://redump.org/) and related communities. It offers multiple user-friendly options to work with various disc dumping programs, such as [redumper](https://github.com/superg/redumper), [Aaru](https://github.com/aaru-dps/Aaru), and [DiscImageCreator](https://github.com/saramibreak/DiscImageCreator).
+**Media Preservation Frontend**, or just **MPF**, is the defacto disc dumping frontend used by [Redump](https://redump.info/) and related communities. It offers multiple user-friendly options to work with various disc dumping programs, such as [redumper](https://github.com/superg/redumper), [Aaru](https://github.com/aaru-dps/Aaru), and [DiscImageCreator](https://github.com/saramibreak/DiscImageCreator).
 
 Included in the repo there are 4 applications:
 
@@ -72,7 +72,7 @@ Included in the repo is a standalone application called **Hasher**, which acts a
 
 ### [SabreTools.RedumpLib](https://github.com/SabreTools/SabreTools.RedumpLib)
 
-**SabreTools.RedumpLib** is a reference library used to document and interact with the [Redump](http://redump.org/) website. No formal API exists for the current site, so this acts as a psuedo-API layer. It is primarily used by **MPF** to help retrieve match data.
+**SabreTools.RedumpLib** is a reference library used to document and interact with the [Redump](https://redump.info/) website. No formal API exists for the current site, so this acts as a psuedo-API layer. It is primarily used by **MPF** to help retrieve match data.
 
 Included in the repo is a standalone reference application called **RedumpTool**, which allows for programmatic access to the site, including the ability to supply login credentials for locked functionality.
 
